@@ -1,4 +1,3 @@
-/* header.css */
 .header {
     background-color: #ffffff;
     position: fixed;
@@ -11,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.325rem 1.25rem;
+    padding: 0.265rem 1.25rem;
 }
 
 .logo img {
