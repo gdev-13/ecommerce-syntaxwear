@@ -1,1 +1,76 @@
-/* footer.css */
+.site-footer {
+    background-color: #333333;
+    color: #ffffff;
+    margin-top: 2.5rem;
+}
+
+.footer-content {
+    max-width: 85rem;
+    margin: 0 auto;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+}
+
+.footer-nav ul {
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+}
+
+.footer-nav ul ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+    padding: 0;
+}
+
+.footer-nav strong {
+    color: #EDEDED;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.footer-nav li a {
+    color: #ffffff;
+}
+
+.footer-nav li a:hover {
+    text-decoration: underline;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-form input {
+    border-radius: 1.875rem;
+    color: #AAAAAA;
+    padding: 0.8rem 1.25rem;
+    width: 21.5rem;
+}
+
+.footer-social ul {
+    display: flex;
+    gap: 1.25rem;
+    padding: 0;
+}
+
+.footer-social ul li a:hover img {
+    opacity: 0.7;
+}
+
+.footer-copy {
+    text-align: center;
+    padding: 1.25rem 0;
+    font-size: 1rem;
+    color: #EDEDED;
+}
