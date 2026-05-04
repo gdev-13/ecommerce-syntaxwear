@@ -3,12 +3,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .category-card {
     position: relative;
-    width: 317px;
+    width: 314px;
     height: 500px;
     border-radius: 15px;
     overflow: hidden;
@@ -50,4 +50,11 @@
 .futurista {
     background: url('../../images/products/futurista.jpg') no-repeat center;
     background-size: cover;
+}
+
+@media (max-width: 500px) {
+    .category-card {
+        width: 100%;
+        gap: 30px;
+    }
 }
